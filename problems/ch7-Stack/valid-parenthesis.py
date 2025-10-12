@@ -84,3 +84,14 @@ def isValid(self, s: str) -> bool:
         return True
     else:
         return False
+    
+'''
+time complexity:
+- iterate over the string once
+O(N)
+
+space complexity:
+- worst case, we have N open brackets
+=> O(N)
+
+'''
